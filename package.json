@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "chat--app-fe",
   "private": true,
   "version": "0.0.0",
@@ -27,5 +28,26 @@
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.18.2",
     "vite": "^6.0.5"
+=======
+  "name": "week-17",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc  -b && node  ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/ws": "^8.5.13",
+    "typescript": "^5.7.3",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^4.0.0"
+>>>>>>> c7129795abfdc8ba65745cf0eb1bb967215f4965
   }
 }
